@@ -54,7 +54,7 @@ public class SelectShops  extends AppCompatActivity {
                         Toast.LENGTH_SHORT).show();
 */
 
-                // *************** ausgewählten shops an ViewAllProducts übergeben
+                // *************** ausgewählte shops an ViewAllProducts übergeben
 
                 Bundle sql_para = new Bundle();
                 sql_para.putInt("sql_para", shopZaehler);
