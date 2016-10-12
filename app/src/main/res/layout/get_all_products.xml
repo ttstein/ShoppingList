@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/editText_hint_shop"
+            android:id="@+id/editText_show_shops"
+            android:layout_weight="1"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="461dp"
+        android:id="@+id/listview_products"
+        android:layout_gravity="center_horizontal"
+        tools:verticalScrollbarPosition="right"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+
+        android:paddingLeft="3dp"
+        android:verticalScrollbarPosition="right"
+
+         />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <Button
+
+                android:text="Ausgewählte Produkte übernehmen"
+
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:visibility="visible"
+                android:layout_marginBottom="1dip"
+                android:layout_marginLeft="30dip"
+                android:layout_width="wrap_content"
+
+                android:textSize="6pt"
+
+                android:background="@drawable/button_text"
+                 />
+        </LinearLayout>
+
+
+</LinearLayout>
